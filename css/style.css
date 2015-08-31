@@ -1,0 +1,60 @@
+body {
+    font-family: "Lato", serif;
+    color: #b02576;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.logo {
+    width: 200px;
+}
+
+#name-title {
+    text-align: right;
+    float: right;
+    color: #1fbde2;
+    font-family: "Quicksand";
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+hr {
+    background-color: #bcbbbb;
+    height: 3px;
+    border: 0;
+}
+
+#work-header {
+    color: #bcbbbb;
+}
+
+#featured-img {
+    height: 350px;
+    width: 100%;
+}
+
+.projects {
+    text-align: center;
+}
+
+.proj-img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.center {
+    margin: auto;
+}
+
+a {
+    color: #bcbbbb;
+}

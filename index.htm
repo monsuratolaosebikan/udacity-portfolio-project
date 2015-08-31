@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet"  href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 logo">
+          <img class="img-responsive" src="images/m_logo.png" alt="udacity logo"/>
+        </div>
+        <div id="name-title" class="col-md-6 text-uppercase">
+          <h1>Monsurat Olaosebikan</h1>
+          <h4>Front-End-Ninja</h4>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div  class="col-md-12">
+          <img id="featured-img" class="img-responsive" src="http://lorempixel.com/960/350/abstract/7" alt="abstract image"/>
+        </div>
+      </div>
+      <div class="row">
+        <div id="work-header" class="col-md-12">
+          <h2>Featured Work</h2>
+        </div>
+      </div>
+      <div class="row projects">
+        <div class="col-md-4">
+          <img class="img-responsive proj-img" src="images/novel_app_half.png" alt="Novel book search app" data-toggle="modal" data-target="#project1"/>
+          <h3 class="text-uppercase">Novel Android App</h3>
+          <p><a href="https://play.google.com/store/apps/details?id=com.lovely.novel">https://play.google.com/store/apps/details?id=com.lovely.novel</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class= "img-responsive proj-img" src="images/origami_clock.png" alt="origami clock" data-toggle="modal" data-target="#project2"/>
+          <h3 class="text-uppercase">Origami Fire Clock</h3>
+          <p><a href="https://www.youtube.com/watch?v=U0TcgDruMU0">https://www.youtube.com/watch?v=U0TcgDruMU0</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class= "img-responsive proj-img" src="images/papercut.png" alt="paper art" data-toggle="modal" data-target="#project3"/>
+          <h3 class="text-uppercase">Papercut Saying Art</h3>
+          <p><a href="https://en.wikipedia.org/wiki/Papercutting">https://en.wikipedia.org/wiki/Papercutting</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for project1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Novel Android App</h4>
+          </div>
+          <div class="modal-body">
+            <p>This is an android app I designed that allows you to scan books and gives you important information like the average rating, title, author, number of pages,
+              and a little description about the book. I love to read and sometimes I just peruse my local bookstore for interesting finds that I may not want to buy at the
+              time but need a way of remembering them for later.
+              <br><br>
+              *The book search feature is powered by the Google Books API and the barcode scanning by Scandit.</p>
+            <img class="img-responsive center" src="images/novel_app.png" alt="Novel book search app" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for project2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel2">Origami Fire Clock</h4>
+          </div>
+          <div class="modal-body">
+            <p>An origami clock made from 60 folded pieces of paper in colors fading from white to dark red.<p>
+            <img class="img-responsive center" src="images/origami_clock.png" alt="origami clock" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for project3-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">Papercut Saying Art</h4>
+          </div>
+          <div class="modal-body">
+            <p>Handcut word art to the popular song "Beautiful" by Christina Aguilera.</p>
+            <img class="img-responsive center" src="images/papercut.png" alt="paper art" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
